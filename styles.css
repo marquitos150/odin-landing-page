@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header,
@@ -37,12 +39,28 @@ button,
     background-color: #3882F6;
     font-size: 18px;
     color: #E5E7EB;
+    border-radius: 8px;
+}
+
+.description img {
+    display: block;
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
 }
 
 .quote {
